@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Output files
+*.html
+*.png
+*.jpg
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
