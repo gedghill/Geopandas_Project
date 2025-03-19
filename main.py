@@ -34,7 +34,7 @@ fig, ax = plt.subplots(figsize=(10, 10))
 world.plot(ax=ax, color='lightgray')
 cities.plot(ax=ax, marker='o', color='red', markersize=5)
 ctx.add_basemap(ax, crs=world.crs.to_string(), source=ctx.providers.OpenStreetMap.Mapnik)
-plt.title('World Countries and Cities')
+plt.title('World Cities Map')
 plt.show()
 
 #Create an interactive map
